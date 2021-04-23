@@ -7,4 +7,5 @@ $('.list-group-item').click(function(){
     audio[0].oncanplaythrough = audio[0].play();
     var filename = new_src.replace(/^.*[\\\/]/, '')
     $('#now_playing_lable').html('Now Playing: ' + filename);
+    location.href = "#vectors";
 });
